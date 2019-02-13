@@ -9,11 +9,5 @@ node {
  
          sh 'npm install'
          
-       }
-        
-        stage ('Install')
-        {
-        sh 'ng serve -o'
-       }
-      
+       }      
 }
