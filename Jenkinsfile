@@ -3,7 +3,7 @@ node('node') {
 
     currentBuild.result = "SUCCESS"
 
-    try {
+    stages {
 
        stage('Checkout'){
 
