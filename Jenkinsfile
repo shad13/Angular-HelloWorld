@@ -9,5 +9,8 @@ node {
  
          bat 'npm install'
          
-       }      
+       } 
+        stage('Run'){
+ 
+         bat 'ng serve -o'
 }
