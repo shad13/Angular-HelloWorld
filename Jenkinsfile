@@ -14,3 +14,4 @@ node {
  
          bat 'ng serve -o'
 }
+}
