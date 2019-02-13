@@ -1,7 +1,5 @@
 node {
 
-    stages {
-
        stage('Checkout'){
 
           checkout scm
@@ -23,5 +21,5 @@ node {
         {
         sh 'ng serve -o'
        }
-      }
+      
 }
