@@ -7,7 +7,7 @@ node {
 
        stage('Test'){
  
-         sh 'npm install'
+         bat 'npm install'
          
        }      
 }
