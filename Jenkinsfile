@@ -14,4 +14,8 @@ node {
  
          bat 'ng serve -o'
 }
+         stage('Stop'){
+ 
+         bat 'npm stop'
+}
 }
