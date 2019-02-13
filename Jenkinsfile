@@ -1,7 +1,4 @@
-node('node') {
-
-
-    currentBuild.result = "SUCCESS"
+node {
 
     stages {
 
@@ -20,7 +17,11 @@ node('node') {
          sh 'npm prune'
          sh 'npm install'
          sh 'npm test'
-
        }
+        
+        stage ('Install')
+        {
+        sh 'ng serve -o'
        }
       }
+}
